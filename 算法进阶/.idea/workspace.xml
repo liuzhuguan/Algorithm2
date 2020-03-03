@@ -2206,11 +2206,7 @@
       <change afterPath="$PROJECT_DIR$/../vue/vueDemo/target/vueDemo-1.0-SNAPSHOT/user.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../vue/vueDemo/vueDemo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../git_test/git_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../git_test/git_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/进阶1/Morris$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/进阶1/Morris$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/进阶1/Morris.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/进阶1/Morris.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/进阶1/src/Morris.java" beforeDir="false" afterPath="$PROJECT_DIR$/进阶1/src/Morris.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -2226,13 +2222,12 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/进阶1/src/Morris.java">
+        <entry file="file://$PROJECT_DIR$/进阶2/src/MostEOR.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="94" column="22" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
+            <state relative-caret-position="463">
+              <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
               <folding>
-                <element signature="e#192#193#0" expanded="true" />
-                <element signature="e#234#235#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -2257,6 +2252,9 @@
         <option value="$PROJECT_DIR$/进阶1/src/MaxRectangle.java" />
         <option value="$PROJECT_DIR$/进阶1/src/MeetTimes.java" />
         <option value="$PROJECT_DIR$/进阶1/src/Morris.java" />
+        <option value="$PROJECT_DIR$/进阶2/src/BuildingOutline.java" />
+        <option value="$PROJECT_DIR$/进阶2/src/MaxSubArrayToAim.java" />
+        <option value="$PROJECT_DIR$/进阶2/src/MostEOR.java" />
       </list>
     </option>
   </component>
@@ -2302,6 +2300,11 @@
               <item name="算法进阶" type="b2602c69:ProjectViewProjectNode" />
               <item name="算法进阶" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="算法进阶" type="b2602c69:ProjectViewProjectNode" />
+              <item name="算法进阶" type="462c0819:PsiDirectoryNode" />
+              <item name="进阶2" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -2338,17 +2341,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Morris">
-    <configuration name="MaxRectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MaxRectangle" />
-      <module name="进阶1" />
+  <component name="RunManager" selected="Application.MostEOR">
+    <configuration name="BuildingOutline" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BuildingOutline" />
+      <module name="进阶2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MaxTree" />
-      <module name="进阶1" />
+    <configuration name="MaxSubArrayToAim" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MaxSubArrayToAim" />
+      <module name="进阶2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -2367,12 +2370,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MostEOR" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MostEOR" />
+      <module name="进阶2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MostEOR" />
+        <item itemvalue="Application.MaxSubArrayToAim" />
+        <item itemvalue="Application.BuildingOutline" />
         <item itemvalue="Application.Morris" />
         <item itemvalue="Application.MeetTimes" />
-        <item itemvalue="Application.MaxRectangle" />
-        <item itemvalue="Application.MaxTree" />
       </list>
     </recent_temporary>
   </component>
@@ -2386,7 +2397,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583198811275</updated>
-      <workItem from="1583198814393" duration="10710000" />
+      <workItem from="1583198814393" duration="16519000" />
     </task>
     <task id="LOCAL-00001" summary="单调栈、Morris遍历">
       <created>1583207530049</created>
@@ -2395,11 +2406,18 @@
       <option name="project" value="LOCAL" />
       <updated>1583207530049</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="完善可Morris遍历">
+      <created>1583214398977</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583214398977</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10710000" />
+    <option name="totallyTimeSpent" value="16519000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -2418,7 +2436,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19971672" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20679887" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -2437,7 +2455,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="单调栈、Morris遍历" />
-    <option name="LAST_COMMIT_MESSAGE" value="单调栈、Morris遍历" />
+    <MESSAGE value="完善可Morris遍历" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善可Morris遍历" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2484,11 +2503,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/进阶1/src/Morris.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="94" column="22" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
+        <state relative-caret-position="44">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
           <folding>
             <element signature="e#192#193#0" expanded="true" />
             <element signature="e#234#235#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/进阶2/src/BuildingOutline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2002">
+          <caret line="91" column="23" lean-forward="true" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/进阶2/src/MaxSubArrayToAim.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/进阶2/src/MostEOR.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
